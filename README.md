@@ -1,10 +1,13 @@
-# airbnb_code_sample
+# Airbnb Code Sample
 
-This repository contains code excerpts from my projects, showcasing code samples without boilerplate (i.e SQL, HTML, CSS, gemfile...)
+This repository contains code excerpts from my private projects, showcasing code samples without boilerplate (i.e SQL, HTML, CSS, gemfile...)
+
+There are two different examples:
+
+* Rails part to show understanding of the framework
+* JavaScript to show logical probelm solving with data manipulation.
 
 ## Rails User Auth - Backend
-
-***
 
 The Rails folder demonstrates a custom user authentication system api implemented in Rails, showcasing a deep understanding of the framework.
 
@@ -18,7 +21,7 @@ How it works:
 6. Rails>app>static_pages>root.html.erb file is used to bootstarp the user when using React on the Frontend.
 7. Rails>config>routes.rb showcases nested routes. It has user creation and session routes.
 
-***
+## JavaScript Logical Data Manipulation
 
 The JavaScript folder demonstrates problem-solving skills through logical data manipulation. This project is live and can be viewed [here](https://hammadkhalid101.github.io/Covid-19-Vaccination-Tracker/) for demonstration purposes. Notably, it showcases the formatting of data retrieved from the CDC API and the creation of an interactive map.
 
@@ -29,7 +32,7 @@ How it works:
 4. JavaScript>functions>format_data_weekly.js - formats data to display weekly progress via slider
 5. JavaScript>functions>draw_map.js - creates the map utilizing D3.js (DataMaps) and populates it with data
 
-More about the app:
+More about the live app:
 
 # Covid-19-Vaccination-Tracker
 
@@ -69,5 +72,3 @@ With the Covid-19 Vaccination Tracker, users are able to:
 * Socrata
 * SODA API
 * DataMap D3.js
-
-***
