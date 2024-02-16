@@ -32,6 +32,20 @@ How it works:
 4. JavaScript>functions>format_data_weekly.js - formats data to display weekly progress via slider
 5. JavaScript>functions>draw_map.js - creates the map utilizing D3.js (DataMaps) and populates it with data
 
+***
+
+### One example of logical problem solution
+
+Situation: I set out to create a dynamic slider for the map displaying weekly COVID-19 vaccination data for Pfizer, Moderna, Janssen, or all vaccines. The user could filter through these options and use the slider to navigate the data. However, integrating both the overall combined data set from the CDC and the weekly data sets on the map dynamically proved challenging.
+
+Task: I aimed to devise a logical solution to update the map based on the selected filter button and the slider's position, with a focus on simplicity and effectiveness.
+
+Action: I tackled this challenge by creating a logical statement that added an event listener to the slider. Additionally, each of the four filter buttons (All, Pfizer, Moderna, Janssen) was equipped with its own event listener. This setup enabled dynamic updates to the map based on both the selected filter and the slider's position. Upon activation of the event listener, I determined the selected filter buttons and used this information to either generate a map displaying data specific to the selected manufacturer or create a map with the entire data set.
+
+Result: The implemented solution, located in JavaScript>index>index.js lines 53-69, effectively resolved the issue. While the project included other complex logical statements, overcoming the slider challenge was particularly rewarding and impactful for me.
+
+***
+
 More about the live app:
 
 # Covid-19-Vaccination-Tracker
